@@ -7,7 +7,7 @@ import { qase } from 'playwright-qase-reporter';
 // Login - Success Case
 test.describe('Login Tests', () => {
     test('Login - Success', async ({ page }) => {
-        qase.id(1);
+        qase.id(8);
         qase.title('User can login with valid credentials');
         // qase.description('This test verifies that a user can successfully log in with valid credentials.');
         const loginPage = new LoginPage(page);
